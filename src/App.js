@@ -4,7 +4,7 @@ import SearchBar from "./components/input/SearchBar";
 import Map from "./components/Map";
 import logo from "./mlh-prep.png";
 import { change_bg, change_icon } from "./color_scheme.js";
-import Forecast from "./components/Forecast;
+import Forecast from "./components/Forecast/Forecast;
 
 function App() {
   const [error, setError] = useState(null);
