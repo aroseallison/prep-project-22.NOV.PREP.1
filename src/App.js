@@ -3,6 +3,7 @@ import "./App.css";
 import SearchBar from "./components/input/SearchBar";
 import Map from "./components/Map";
 import logo from "./mlh-prep.png";
+import Forecast from "./components/Forecast/Forecast";
 import { change_bg, change_icon } from "./color_scheme.js";
 
 function App() {
