@@ -76,6 +76,9 @@ function App() {
             cityCoordinates={cityCoordinates}
             setCityCoordinates={setCityCoordinates}/>
         </div>
+        <div className="HourlyForecast">
+          <Forecast setError={setError} city={city}/>
+        </div>
       </div>
     </React.Fragment>
   );
