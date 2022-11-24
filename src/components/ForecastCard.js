@@ -1,4 +1,4 @@
-import ForecastCard from "./ForecastCard";
+import "./ForecastCard.css";
 const ForecastCard = ({ forecastData, renderForecastData}) => {
     const renderCardData = 
         forecastData[Object.keys(forecastData)[renderForecastData]];
