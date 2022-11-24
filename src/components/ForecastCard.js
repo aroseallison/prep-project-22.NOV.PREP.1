@@ -7,7 +7,7 @@ const ForecastCard = ({ forecastData, renderForecastData}) => {
             {renderCardData &&
                 Object.keys(renderCardData).map(key => (
                   <div className="card-container">
-                    <p>{key}:00 hours</p>
+                    <p>{key}:00</p>
                     <p className="temp">
                       {Math.round(renderCardData[key].temp - 273.15, 2)}°C
                     </p>
