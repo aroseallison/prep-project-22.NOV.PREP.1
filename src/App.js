@@ -5,6 +5,7 @@ import Map from "./components/Map";
 import logo from "./mlh-prep.png";
 import { change_bg, change_icon } from "./color_scheme.js";
 import ItemNeed from "./components/CarryItems/ItemNeed";
+import Forecast from "./components/Forecast";
 function App() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -81,6 +82,9 @@ function App() {
             cityCoordinates={cityCoordinates}
             setCityCoordinates={setCityCoordinates}/>
         </div>
+       <div>
+      <Forecast city={city}/>
+      </div>
       </div>
     </React.Fragment>
   );
