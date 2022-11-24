@@ -4,7 +4,7 @@ const ItemNeed = (props) => {
     
         "Rain"          : ["umbrella", "raincoat","boots"] , 
         "Drizzle"       : ["umbrella", "raincoat","boots"] , 
-        "Clouds"        : ["umbrella" , "raincoat",,"mittens"],
+        "Clouds"        : ["umbrella" , "raincoat","mittens"],
         "Snow"          : ["raincoat" , "umbrella","mittens"], 
     
     
@@ -18,7 +18,7 @@ const ItemNeed = (props) => {
         "Haze"          :  ["sunglasses", "sunscreen","torch"],  
         "Fog"           :  ["torch","raincoat"],  
         "Mist"          :["torch","raincoat"],    
-        "Sand"          : ["sunglasses", "sunscreen"]  
+        "Sand"          : ["sunglasses", "sunscreen"], 
     
     } ; 
     const weatherdata = props.resultantdata ;
