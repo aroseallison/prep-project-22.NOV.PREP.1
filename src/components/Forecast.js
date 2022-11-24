@@ -45,12 +45,10 @@ export default function Forecast({ city }) {
     <div>
       <h3>Hourly Forecast</h3>
       <hr />
-      //<Carousel itemsToShow={6}>
         <ForecastCard
           forecastData={forecastData}
           renderForecastData = {renderForecastCard}>
           </ForecastCard>
-        //</Carousel>
     </div>
   )
 }
