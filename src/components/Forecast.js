@@ -7,7 +7,7 @@ export default function Forecast({ city }) {
 
   useEffect(() => {
     fetch(
-      `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${f70ff4caceedec5099c75c7a88b03ba8}`
+      `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${REACT_APP_APIKEY=f70ff4caceedec5099c75c7a88b03ba8}`
     )
       .then(res => res.json())
       .then(
